@@ -5,10 +5,11 @@ LIC_FILES_CHKSUM = "file://package.xml;beginline=8;endline=8;md5=12c26a18c7f493f
 DEPENDS = " \
         python3-empy \
         python3-empy-native \
+        ament-cmake-ros \
 "
 
-SRCREV = "85043d2da60cae000ea8137ab3eaff78d2ff2d42"
-SRC_URI = "git://github.com/ros2/rcutils.git;protocol=git;"
+SRCREV = "244fa98ad6421ed3d6295bd157ec4b73400fab52"
+SRC_URI = "git://github.com/ros2/rcutils.git;branch=bouncy;protocol=git;"
 
 inherit ament
 
