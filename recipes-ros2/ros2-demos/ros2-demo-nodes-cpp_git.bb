@@ -10,3 +10,5 @@ DEPENDS = " \
 ROS_BPN = "demo_nodes_cpp"
 
 include ros2-demos.inc
+
+FILES_${PN} = "/usr"

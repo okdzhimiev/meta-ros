@@ -1,6 +1,6 @@
 HOMEPAGE = "https://github.com/ros2/demos"
 
-SRCREV = "ac2db5662a45029c1e2205aefdb93302cadc0f43"
-SRC_URI = "git://github.com/ros2/demos.git;protocol=git;"
+SRCREV = "4c632b30ee1dfb0348be4b66104699f83cf04689"
+SRC_URI = "git://github.com/ros2/demos.git;branch=bouncy;protocol=git;"
 
 inherit ament
